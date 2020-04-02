@@ -1,0 +1,123 @@
+  *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.efg{
+	width: 100%;
+	height: 25vh;
+	clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 85%,0% 0%);
+	position: absolute;
+}
+
+.efg:before{
+	content:"";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	opacity: 0.6;
+	z-index: -1;
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.efg{
+	width: 100%;
+	height: 45vh;
+	color: black;
+	text-align: center;
+	position: relative;
+}
+
+.decor{
+	width: 10%;
+	height: auto;
+	font-size: 9px;
+	margin-top: 20%;
+}
+.container-div{
+	width: 100%;
+	height: 50%;
+}
+.decor p{
+	font-size: 10px;
+}
+
+.header-div {
+	margin-top: 4%;
+}
+
+.div-c{
+	width: 10%;
+	height: auto;	
+	padding-top: 80px;
+}
+
+.gg{
+	margin-top: 4%;
+}
+
+.header-div p{
+	font-size: 9px;
+}
+
+.header-first{
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	text-align: center;
+	margin-top: 6%;
+	padding-bottom: 5%;
+}
+.header-first p{
+	color:  #00A7BC;
+}
+.vv
+{background-color: #66DDF1;
+
+}
+
+.header-second{
+	width: 100%;
+	height: auto;
+	padding-bottom: 4%;
+	background-color:  #66DDF1;
+
+}
+.header-second i{
+	color: #fff;
+	 
+}
+
+.header-second p{
+	color: #00A7BC;
+}
+
+.footer{
+
+	width: 100%;
+	height: auto;
+	background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.header-thierd{
+	margin-top: 6%;
+
+}
+.header-fourth{
+	margin-top: 6%;
+}
+.header-thierd h3{
+	text-align: center;
+
+}
+.dd i{
+	font-size: 20px;
+	color: #2BD6D8;
+}
+.dd p{
+	font-size: 12px;
+}
